@@ -430,6 +430,16 @@ public class SFDCStopTeamController {
             
         );
 
+        sfdcstopContributors.add(
+            new Contributor(
+                'Free Palestine',
+                'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/1280px-Flag_of_Palestine.svg.png',
+                Date.newInstance(2024, 05, 29),
+                'https://x.com/FutbolPalestine?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor'
+            )
+            
+        );
+
         return JSON.serialize(sfdcstopContributors);
     }
 }
